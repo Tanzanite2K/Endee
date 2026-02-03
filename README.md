@@ -96,6 +96,9 @@ This will run the vector database locally at `localhost:6333`.
 py -m indexer.index_documents
 ```
 
+<img width="1074" height="309" alt="image" src="https://github.com/user-attachments/assets/c97c64e5-da66-45a1-9543-821330974327" />
+
+
 This converts your documents into embeddings and stores them in Endee.
 
 4. **Run a semantic search**
@@ -107,6 +110,10 @@ py -m indexer.search_documents
 Enter a query when prompted (e.g., `"chocolate cake recipe"` or `"document indexing and semantic search"`).
 
 ---
+
+<img width="1041" height="271" alt="image" src="https://github.com/user-attachments/assets/1ddad53c-1c1d-4c5e-a60d-b648bd66aee3" />
+<img width="875" height="242" alt="image" src="https://github.com/user-attachments/assets/3ffc8ade-5d97-430b-b75c-87adc4fa38ee" />
+
 
 ## 🔍 Example Search
 
@@ -140,5 +147,3 @@ Enter a query when prompted (e.g., `"chocolate cake recipe"` or `"document index
 * **SentenceTransformers** – Text embeddings
 * **Docker** – Containerized Endee setup
 * **RAG workflows** – Combining retrieval with LLM generation
-
-
